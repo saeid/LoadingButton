@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct LoadingButton<Content: View>: View {
+public struct LoadingButton<Content: View>: View {
 
-    enum ProgressType {
+    public enum ProgressType {
         case loading(Binding<Bool>)
         case progress(Binding<Bool>, Binding<Double>)
     }
 
-    @Binding var isLoading: Bool
+    @Binding public var isLoading: Bool
     @State private var animationFinished = false
 
     private var style: Style
@@ -54,7 +54,7 @@ struct LoadingButton<Content: View>: View {
         }
     }
 
-    var body: some View {
+    public var body: some View {
         Button(action: {
             tapAction()
         }) {

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CircularProgressView: View {
+public struct CircularProgressView: View {
     private var style: Style
     @Binding var progress: Double
 
@@ -19,7 +19,7 @@ struct CircularProgressView: View {
         self._progress = progress
     }
 
-    var body: some View {
+    public var body: some View {
         ZStack {
             Circle()
                 .stroke(

@@ -14,10 +14,7 @@ struct LoadingButtonSample: View {
         case loading
         case progress
     }
-
     private var type: ButtonType = .loading
-    @State var isLoading = false
-    @State var progress = 0.0
 
     var body: some View {
         if case ButtonType.loading = type {

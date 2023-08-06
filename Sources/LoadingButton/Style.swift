@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct Style {
+public struct Style {
     var width: CGFloat
     var height: CGFloat
     var backgroundColor: Color
     var strokeWidth: CGFloat
     var cornerRadius: CGFloat?
 
-    static var `default`: Style {
+    static public var `default`: Style {
         Style(
             width: 300,
             height: 55,

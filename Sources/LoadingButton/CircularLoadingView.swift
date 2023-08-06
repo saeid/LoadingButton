@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CircularLoadingView: View {
+public struct CircularLoadingView: View {
     private var style: Style
     @State private var isLoading = false
 
@@ -15,7 +15,7 @@ struct CircularLoadingView: View {
         self.style = style
     }
 
-    var body: some View {
+    public var body: some View {
         Circle()
             .trim(from: 0, to: 0.6)
             .stroke(
