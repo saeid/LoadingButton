@@ -1,9 +1,8 @@
 # LoadingButton
-
 LoadingButton is a SwiftUI button for presenting animated progress/loading states.
 
-<img src="https://github.com/saeid/LoadingButton/assets/9967486/50ef09ec-d004-4e52-b3db-c29582a432c7" width=40% height=40%>
-<img src="https://github.com/saeid/LoadingButton/assets/9967486/990fd1d7-304a-4ee8-aec2-32ede03ed2ee" width=40% height=40%>
+<img src="https://github.com/saeid/LoadingButton/assets/9967486/02346158-c46f-4be4-816e-2555430c8758" width=40% height=40%>
+<img src="https://github.com/saeid/LoadingButton/assets/9967486/88e82205-9ede-490b-a2eb-c990064ea392" width=40% height=40%>
 
 ## Requirements
 - Xcode 14+
